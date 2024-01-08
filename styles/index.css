@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header styles */
+header {
+    margin: 50px 140px;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.614), rgba(0, 0, 0, 0.651)), url('../resources/Banner\ Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.banner p {
+    font-size: 32px;
+}
+
+.banner h1 {
+    font-size: 72px;
+    text-align: center;
+}
+
+/* main styles */
+main{
+    margin: 50px 140px;
+}
+.image-one{
+    height: 500px;
+}
