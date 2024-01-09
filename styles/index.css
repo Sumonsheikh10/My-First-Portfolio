@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* header styles */
 header {
     margin: 50px 140px;
 }
+
 .banner {
     width: 100%;
     height: 500px;
@@ -22,14 +24,17 @@ header {
     color: white;
     gap: 120px;
 }
+
 .banner p {
     font-size: 32px;
     text-align: center;
 }
+
 .banner h1 {
     font-size: 72px;
-   text-align: center;
+    text-align: center;
 }
+
 /* main styles */
 main {
     margin: 50px 140px;
@@ -38,10 +43,11 @@ main {
 .image-one {
     height: 500px;
 }
+
 .highlight {
-    
+
     text-align: center;
-    
+
 }
 
 .discount {
@@ -65,11 +71,38 @@ main {
     background-position: center;
     border-radius: 20px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
     color: white;
+    justify-content: space-between;
+    padding: 60px;
 
+}
+
+.party-left {
+    width: 60%;
+}
+
+.party-right {
+    width: 30%;
+}
+
+.party-right img {
+    width: 100%;
+}
+
+.welcome {
+    color: white;
+    font-size: 64px;
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 88px;
+   
+}
+.party-left button{
+    margin-top: 15px;
+    color: white;
+    border: none;
+    background:transparent ;
 }
 
 .second-banner-welcome {
@@ -98,58 +131,120 @@ main {
     justify-content: center;
     color: black;
 }
+
 .span-color {
     color: red;
-   
+
 }
-.man{
-   text-align: center;.
-}
-.holidays{
-    color: #FF0000;
-}
-.what{
-    font-size: 24px;
-}
-.just{
-    font-size: 72px;
-}
-.go{
+
+.man {
     text-align: center;
 }
-    /* another-section start */
 
-.the-images{
+.holidays {
+    color: #FF0000;
+}
+
+.what {
+    font-size: 24px;
+}
+
+.just {
+    font-size: 72px;
+}
+
+.go {
+    text-align: center;
+}
+
+/* another-section start */
+
+.the-images {
     margin: 100px;
 }
-.gift{
-color: #FF0000;
+
+.gift {
+    color: #FF0000;
 }
-.another-section{
+
+.another-section {
     margin: 100px
 }
+
 /* next-section-here */
-.section{
+.section {
     align-items: center;
     margin-left: 100px;
 }
-.woman{
-   
+
+.woman {
+
     align-content: space-between;
-    background: rgba(255, 0, 0, 0.05); border-radius: 16px;
-    
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+
 }
+
+.coming-soon-container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.coming-soon-container h3 {
+    color: #FF0000;
+    font-size: 24px;
+
+}
+
+.left-side {
+    width: 33%;
+}
+
+.left-side h1 {
+    margin-top: 16px;
+    margin-bottom: 22px;
+    font-size: 48px;
+}
+
+.middle {
+    width: 33%;
+    border: 5px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle img {
+    width: 100%;
+}
+
+.right-side {
+    width: 33%;
+}
+
+.right-side p {
+    margin: 10px 0px;
+}
+
 /* footer start */
-.footer{
-    
-background-color: #070211;
+.footer {
+
+    background-color: #070211;
 }
-.foot{
+
+.foot {
     margin-left: 140px;
     color: white;
 
 }
-.phone{
+
+.phone {
     text-align: right;
     margin-left: 140px;
     color: white
