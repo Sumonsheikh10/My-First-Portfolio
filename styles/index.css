@@ -22,7 +22,6 @@ header {
     align-items: center;
     justify-content: center;
     color: white;
-    gap: 120px;
 }
 
 .banner p {
@@ -131,6 +130,17 @@ main {
     justify-content: center;
     color: black;
 }
+.hello-btn{margin-top: 15px;
+    color: white;
+    border: none;
+    
+    background-color: red;
+}
+.buton{
+    background-color: #FF0000;
+    color: white;
+    border-radius: none;
+}
 
 .span-color {
     color: red;
@@ -140,6 +150,7 @@ main {
 .man {
     text-align: center;
 }
+
 
 .holidays {
     color: #FF0000;
@@ -272,7 +283,7 @@ main {
 .footer {
 
     background-color: #070211;
-}
+}   
 
 .foot {
     margin-left: 140px;
