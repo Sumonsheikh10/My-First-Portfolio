@@ -177,12 +177,48 @@ main {
     margin-left: 100px;
 }
 
-.woman {
-
+.news {
+    width: 50%;
     align-content: space-between;
-    background: rgba(255, 0, 0, 0.05);
-    border-radius: 16px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+.news h1{
+    font-size: 48px;
+    margin: 20px 0px;
+}
+.input-container{
+    margin-top: 20px;
+    display: flex;
+}
+.input-container input {
+    padding: 15px;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.input-container button{
+    padding: 15px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+}
+.input-container input:focus{
+    outline: none;
+   
+}
+.news-container{
+    width: 100%;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    padding:  50px 0px;
+    border-radius: 16px;
 }
 
 .coming-soon-container {
